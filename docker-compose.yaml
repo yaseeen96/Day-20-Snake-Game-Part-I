@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  application:
+    build: .
+    image: day20:latest
+    container_name: day20
+    stdin_open: true
+    tty: true
